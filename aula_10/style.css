@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    width: 1280px;
+    height: 720px;
+    background-image: url(https://picsum.photos/1280/720);
+
+    border: 2px solid tan;
+    border-radius: 20px;
+
+    text-align: center;
+    padding-top: 300px;
+}
