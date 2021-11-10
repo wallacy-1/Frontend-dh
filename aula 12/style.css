@@ -1,0 +1,59 @@
+/*Criar um menu suspenso e fixo no topo.
+A página deve conter uma imagem que ocupe toda área de visualização.
+A página deve conter produtos com botões estilizados.
+Os botões devem conter links para outros documentos ou sites.
+A página deve conter um ícone do whatsapp fixo na tela para contato com o vendedor.
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1000px;
+    background-image: url(https://picsum.photos/1000/1000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.produtos{
+    width: 250px;
+    height: 250px;
+    background-color: wheat;
+    margin-top: 50px;
+}
+
+.img-produtos{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://picsum.photos/200/200);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 22px;
+}
+
+.botao-produtos{
+    margin-left: 91px;
+    margin-top: 12px;
+}
+
+#menu{
+    background-color: tomato;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+#whatsapp{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-image: url(whatsapp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
