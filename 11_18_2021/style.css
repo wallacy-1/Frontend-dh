@@ -1,0 +1,47 @@
+p::first-letter{
+    background-color: greenyellow;
+    color: red;
+}
+
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+}
+
+.caixa:nth-child(2){
+    background-color: blue;
+}
+
+.caixa:hover{
+    background-color: greenyellow;
+    border: 2px solid;
+}
+
+
+#nome:focus{
+    background-color: red;
+}
+
+.checkbox:checked{
+    height: 50px;
+    width: 50px;
+}
+
+#teste:disabled{
+    background-color: red;
+}
+
+#teste:enabled{
+    background-color: green;
+}
+
+#teste:hover{
+    pointer-events: none;
+}
+
+#email:invalid{
+    background-color: royalblue;
+}
