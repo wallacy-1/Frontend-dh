@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap');
+
+fieldset{
+    width: 100%;
+    margin: 10px; /* fica bonito */
+}
+
+fieldset * {
+    margin-left: 3%;
+    /* sobrar espaço para o hover assim o conteudo do
+    fieldset n ultrapasa dele */
+}
+
+input{
+    margin-top: 1%;
+}
+
+p{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.campo:hover{
+    transform: scale(1.2);
+}
+
+#caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+}

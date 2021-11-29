@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint - 2</title>
+    <link rel="stylesheet" href="check2style.css">
+</head>
+
+<body>
+    <div id="caixa">
+        <form action="">
+            <fieldset>
+                <!-- Dados pessoais - inicio -->
+                <legend>Informações Pessoais</legend>
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" maxlength="100" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email Principal:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" name="telefone" id="telefone" required>
+                </div>
+                <div class="campo">
+                    <label for="datanasc">Data de Nascimento:</label>
+                    <input type="date" name="datanasc" id="datanasc" required>
+                </div>
+                <div class="campo">
+                    <label for="idade">Você e maior de idade ?</label>
+                    <select id="idade" required>
+                        <option value="" selected hidden>Selecione uma opção</option>
+                        <option value="Sim">Sim, Sou de maior</option>
+                        <option value="Não">Não, Sou de menor</option>
+                    </select>
+                </div>
+            </fieldset> <!-- Dados pessoais - FINAL -->
+
+            <fieldset>
+                <!-- Interesses - inicio -->
+                <legend>Interesses</legend>
+                <div class="campo">
+                    <p>Pontos de Interesse da cidade de São Paulo</p>
+                    <select id="P_interesse" required>
+                        <option value="" selected hidden>Selecione uma opção</option>
+                        <option value="Avenida Paulista">Avenida Paulista</option>
+                        <option value="SESC Belenzinho">SESC Belenzinho</option>
+                        <option value="Solo Sagrado De Garapiranga">Solo Sagrado De Garapiranga</option>
+                        <option value="Edifício Itália">Edifício Itália</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <p>Qual o seu Interesse na Cidade ?</p>
+                    <label for="Turista">Turista</label>
+                    <input type="checkbox" name="Turista" id="Turista">
+                    <label for="Residente">Residente</label>
+                    <input type="checkbox" name="Residente" id="Residente">
+                    <label for="Estudante">Estudante</label>
+                    <input type="checkbox" name="Estudante" id="Estudante">
+                </div>
+            </fieldset> <!-- Interesses - FINAL -->
+
+            <fieldset id="botoes">
+                <div class="campo">
+                    <input type="submit" value="ENVIAR">
+                </div>
+                <div class="campo">
+                    <input type="reset" value="LIMPAR">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
