@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,KAAK,CAAA;ECHD,gBAAgB,ECDL,MAAM;EDEjB,KAAK,ECFM,MAAM;EFMjB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAChB;;AAJD,ACAI,KDAC,ACAA,MAAM,CAAA;EACH,gBAAgB,ECJP,KAAK;CDKjB",
+    "sources": [
+        "style.scss",
+        "_mixing.scss",
+        "_variaveis.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

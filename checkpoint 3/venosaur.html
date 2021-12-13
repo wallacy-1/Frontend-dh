@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon | venosaur</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./img/Icon_aba.ico" type="image/x-icon">
+    <title>Pokémon</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="./img/logo_pokemon.png" width="100" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#Pokemons">Pokémons</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#feedbackModal">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--  img banner -->
+    <div class="ratio ratio-16x9">
+        <img src="img/Venusaur page.jpg" class="img-fluid" alt="...">
+    </div>
+
+    <!-- container para ficar no centro igual o wireframe -->
+    <div class="container">
+        <h1>Venusaur N:003</h1>
+        <p>Venusaur absorve a luz solar para ganhar energia e alimentar sua flor, localizada em seu dorso. Depois de
+            ganhar uma certa quantidade de luz solar, a flor vai liberar um aroma doce que acalma as emoções das
+            pessoas. Além disso, após um dia chuvoso, o cheiro do aroma da flor fica mais forte, atraindo outros
+            Pokémon.</p>
+        <p>O poder do Gigantamaxing fez a flor de Venusaur desabrochar tão grande que cobre o corpo do Pokémon. As
+            pétalas da flor são extremamente grossas e elásticas o suficiente para repelir ataques indiferentes. Durante
+            a batalha, o Pokémon usa essas pétalas como escudo e balança suas duas vinhas grossas para atacar seu alvo.
+        </p>
+        <p>A flor nas costas do Pokémon expele tanto pólen que parece uma erupção vulcânica. A inalação do pólen pode
+            causar espirros incontroláveis ​​e a inalação de muito pólen pode até causar desmaios. No entanto, o pólen
+            também estimula o crescimento das plantas. Diz-se que os lugares onde o pólen cai crescem densamente com
+            plantas grandes.</p>
+        <h3>Elemento:</h3>
+        <div class="rounded-3 d-inline p-2 mb-2 bg-success text-white">Grass</div>
+        <div id="poison" class="rounded-3 d-inline p-2 mb-2 bg-primary text-white">Poison</div>
+        <h1 class="p-2">ANIME:</h1>
+        <div class="ratio ratio-16x9">
+            <iframe class="p-3" width="560" height="315" src="https://www.youtube.com/embed/IhH0WYJEprQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="sobre" class="w-100 py-4 flex-shrink-0 bg-dark">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3 text-start">Miguel oduber</h5>
+                    <p class="small text-muted">Responsável pelo desenvolvimento da pagina principal</p>
+                    <a href=""><img src="/img/logo-linkedin.png" alt=""></a>
+                    <a href=""><img class="me-2" src="/img/logo-github.png" alt=""></a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3 footer-texto-centro">rafael</h5>
+                    <p class="small text-muted footer-texto-centro">Responsável pelo desenvolvimento da pagina principal
+                    </p>
+                    <div class="footer-img-centro">
+                        <a href=""><img class="me-2" src="/img/logo-github.png" alt=""></a>
+                        <a href=""><img src="/img/logo-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3 footer-texto-final">Wallacy dos santos silva</h5>
+                    <p class="small text-muted footer-texto-final">Responsável pelo desenvolvimento dos cards, site
+                        responsivo e pagina pokemon</p>
+                    <div class="footer-img-final">
+                        <a href="https://github.com/wallacy-1"><img class="me-2" src="/img/logo-github.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/wallacy-dos-santos-silva/"><img
+                                src="/img/logo-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <p id="texto-final-footer-data" class="mt-5">Checkpoint 3 desenvolvido em 2021</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true"
+        style="display: none;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                    <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Faça seu login</h5>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body border-0 p-4">
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3 text-center mb-5">
+                            <img src="./img/logo_pokemon.png" width="200" alt="">
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                data-sb-validations="required,email" data-sb-can-submit="no">
+                            <label for="email">Email</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Um email é requerido.
+                            </div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email no é valido.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="password" type="password" placeholder="Insira sua senha"
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="password">Senha</label>
+                            <div class="invalid-feedback" data-sb-feedback="password:required">É necessário informar
+                                a senha.</div>
+                        </div>
+                        <!-- Message input-->
+                        <!--<div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" data-sb-can-submit="no"></textarea>
+                        <label for="message">Message</label>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Um Mensagem e requerido.</div>
+                    </div>-->
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br>
+                                <a
+                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Erro enviando mensagem!</div>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled"
+                                id="submitButton" type="submit">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

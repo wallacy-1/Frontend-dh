@@ -1,0 +1,9 @@
+@import 'mixing';
+@import 'variaveis';
+
+
+#div1{
+    @include divcor($cor-primaria, $cor-segundaria);
+    width: 200px;
+    height: 200px;
+}

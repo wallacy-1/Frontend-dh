@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="./img/Icon_aba.ico" type="image/x-icon">
+    <title>Pokémon</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <img src="./img/logo_pokemon.png" width="100" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Pokemons">Pokémons</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#feedbackModal">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/banner1.jpg" alt="First slide">
+                <div class="carousel-caption d-md-block">
+                    <h5>Pokémon</h5>
+                    <p>As principais informações sobre o anime que completou 27 anos e segue conquistando gerações.</p>
+                </div>
+            </div>
+            <div class="carousel-item imagepost">
+                <img class="d-block w-100" src="./img/banner2.jpg" alt="Second slide">
+                <div class="carousel-caption d-md-block">
+                    <h5>Rocket</h5>
+                    <p>é uma organização criminosa, com a sua principal base na região de Kanto e querem dominar o
+                        mundo.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExample" type="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- 
+This is a variation on a basic bootstrap carousel example, which I forked this from.
+The key differences present here are:
+1. When moving to a mobile view, the images *should* compress and hidden overflow their content area while
+staying centered.
+2. Text is manuvered to be over the images, so that you could present a title or product information, whatever
+your use case may be, over the image.
+
+It's not much, but it took more finagling than you might think. These changes are tested only
+on my own usecase, so YMMV.
+
+-->
+
+
+
+    <div id="Pokemons" class="produtos mb-5">
+        <div class="container">
+            <h2 class="text-center p-4">Pokémons Memoráveis</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img class="card-body-img" src="../img/003.png" class="card-img-tod" alt="Venosaur">
+                        <div class="card-body flex-column d-flex justify-content-between rounded-3">
+                            <h5 class="card-title">Venosaur</h5>
+                            <p class="card-text">A planta em suas costas floresce quando está absorvendo energia solar.
+                                Ele permanece
+                                em
+                                movimento para buscar a luz solar, Apos gan...</p>
+                            <a href="venosaur.html" class="btn btn-pokemon button">Pokédex</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-body-img" src="../img/006.png" class="card-img-tod" alt="Charizard">
+                        <div class="card-body flex-column d-flex justify-content-between rounded-3">
+                            <h5 class="card-title">Charizard</h5>
+                            <p class="card-text text-justify">Ele cospe fogo que é quente o suficiente para derreter
+                                pedras.
+                                Suas asas podem transportar este Pokémon até uma altitude de 4...</p>
+                            <a href="#" class="btn btn-pokemon button">Pokédex</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-body-img" src="./img/009.png" class="card-img-top" alt="Blastoise">
+                        <div class="card-body flex-column d-flex justify-content-between rounded-3">
+                            <h5 class="card-title text-justify">Blastoise</h5>
+                            <p class="card-text">Ele esmaga seu inimigo sob seu corpo pesado, causando desmaios. Em um
+                                piscar de olhos, ele se retirará para dentro de sua concha.</p>
+                            <a href="#" class="btn btn-pokemon button">Pokédex</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-body-img" src="./img/018.png" class="card-img-top" alt="Pidgeot">
+                        <div class="card-body flex-column d-flex justify-content-between rounded-3">
+                            <h5 class="card-title text-justify">Pidgeot</h5>
+                            <p class="card-text">Este Pokémon voa com velocidade de Mach 2, procurando uma presa. Suas
+                                grandes garras são temidas como armas perversas.</p>
+                            <a href="#" class="btn btn-pokemon button">Pokédex</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img class="card-body-img" src="./img/025.png" class="card-img-top" alt="Pikachu">
+                        <div class="card-body flex-column d-flex justify-content-between rounded-3">
+                            <h5 class="card-title text-justify">Pikachu</h5>
+                            <p class="card-text">O pikachu, que pode gerar eletricidade poderosa, tem bolsas nas
+                                bochechas que são extremamente macias e a...</p>
+                            <a href="#" class="btn btn-pokemon button">Pokédex</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col teste">
+                    <div class="card">
+                        <img class="card-body-img" src="./img/151.png" class="card-img-top" alt="Mew">
+                        <div class="card-body flex-column d-flex justify-content-between rounded-3">
+                            <h5 class="card-title text-justify">Mew</h5>
+                            <p class="card-text">Mew é um Pokémon extremamente raro. As informações sobre todos os
+                                Pokémons
+                                do mundo estão contidas em sua estrutura...</p>
+                            <a href="#" class="btn btn-pokemon button">Pokédex</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="sobre" class="w-100 py-4 flex-shrink-0 bg-dark">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3 text-start">Miguel oduber</h5>
+                    <p class="small text-muted">Responsável pelo desenvolvimento da pagina principal</p>
+                    <a href="https://www.linkedin.com/in/migueloduber/"><img src="/img/logo-linkedin.png" alt=""></a>
+                    <a href="https://github.com/estudio7"><img class="me-2" src="/img/logo-github.png" alt=""></a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3 footer-texto-centro">Rafael Lovera de Araujo</h5>
+                    <p class="small text-muted footer-texto-centro">Responsável pelo desenvolvimento da pagina principal
+                    </p>
+                    <div class="footer-img-centro">
+                        <a href="https://github.com/loverarafael"><img class="me-2" src="/img/logo-github.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/rafael-lovera/"><img src="/img/logo-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3 footer-texto-final">Wallacy dos santos silva</h5>
+                    <p class="small text-muted footer-texto-final">Responsável pelo desenvolvimento dos cards, site
+                        responsivo e pagina pokemon</p>
+                    <div class="footer-img-final">
+                        <a href="https://github.com/wallacy-1"><img class="me-2" src="/img/logo-github.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/wallacy-dos-santos-silva/"><img
+                                src="/img/logo-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <p id="texto-final-footer-data" class="mt-5">Checkpoint 3 desenvolvido em 2021</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true"
+        style="display: none;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                    <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Faça seu login</h5>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body border-0 p-4">
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Name input-->
+                        <div class="form-floating mb-3 text-center mb-5">
+                            <img src="./img/logo_pokemon.png" width="200" alt="">
+                        </div>
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                data-sb-validations="required,email" data-sb-can-submit="no">
+                            <label for="email">Email</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Um email é requerido.
+                            </div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email no é valido.</div>
+                        </div>
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="password" type="password" placeholder="Insira sua senha"
+                                data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="password">Senha</label>
+                            <div class="invalid-feedback" data-sb-feedback="password:required">É necessário informar
+                                a senha.</div>
+                        </div>
+                        <!-- Message input-->
+                        <!--<div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" data-sb-can-submit="no"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Um Mensagem e requerido.</div>
+                        </div>-->
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br>
+                                <a
+                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Erro enviando mensagem!</div>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled"
+                                id="submitButton" type="submit">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

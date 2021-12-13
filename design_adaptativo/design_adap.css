@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 12px;
+    scroll-behavior: smooth; 
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    padding: 1%;
+    height: 100%;
+    font-size: 1.5rem;
+    border: solid black 1px;
+    text-align: center;
+    background-color: gray;
+}
+
+#nav-sticky{
+    height: 10vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    border: 1pxsolid;
+}
+
+#banner{
+    height: 90vh;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#caixa{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    #caixa{
+        display: flex;
+        flex-direction: row;
+        height: 94vh;
+    }
+}

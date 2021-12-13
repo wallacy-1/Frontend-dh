@@ -1,0 +1,8 @@
+@mixin divcor ($cor, $cor2){
+    background-color: $cor;
+    color: $cor;
+
+    &:hover{
+        background-color: $cor2;
+    }
+}
